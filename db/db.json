@@ -1,0 +1,149 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "email": "ambinintsoa.m.herizo@gmail.com",
+      "name": "Zo ambinintsoa",
+      "isSuperAdmin": true,
+      "password": "6n/aPMavIMBrATSsBxA3d5HEvDB3yadKHHc58Zx2jKI=",
+      "profile": "1",
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm"
+    },
+    {
+      "id": "3",
+      "email": "Denis@admin.com",
+      "name": "Denis",
+      "isSuperAdmin": false,
+      "password": "FljiDRi6i0+WZJMUTE1DAMjGmErkzWg9rK3jlGy3VBo=",
+      "profile": "3",
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm"
+    },
+    {
+      "id": "4",
+      "email": "Rivo@admin.com",
+      "name": "Rivo",
+      "isSuperAdmin": false,
+      "password": "Co7koV0InnmzsiGR4VzMYZQuevgGhmTuJtcsf+/C4rQ=",
+      "profile": "3",
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm"
+    }
+  ],
+  "project": [
+    {
+      "id": "1",
+      "name": "Akata Devis Back",
+      "description": "Gestion de Devis pour akata with sails Js",
+      "estimated_start": "2021-07-25",
+      "estimated_end": "2021-07-25",
+      "state": "3",
+      "owner": "2",
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm",
+      "total_hours": 0,
+      "amount_spent": 0
+    },
+    {
+      "id": "2",
+      "name": "Akata Devis Front",
+      "description": "Gestion de Devis pour akata with Vue Js",
+      "estimated_start": "2021-07-25",
+      "estimated_end": "2021-07-25",
+      "state": "1",
+      "owner": "1",
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm",
+      "total_hours": 0,
+      "amount_spent": 0
+    }
+  ],
+  "state": [
+    {
+      "id": "1",
+      "name": "Pending",
+      "code": 1,
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm"
+    },
+    {
+      "id": "2",
+      "name": "In Progress",
+      "code": 2,
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm"
+    },
+    {
+      "id": "3",
+      "name": "Closed",
+      "code": 3,
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm"
+    }
+  ],
+  "profile": [
+    {
+      "_id": "1",
+      "name": "Administrator",
+      "code": 1,
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm"
+    },
+    {
+      "_id": "2",
+      "name": "Manager",
+      "code": 2,
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm"
+    },
+    {
+      "_id": "3",
+      "name": "Employee",
+      "code": 3,
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm"
+    },
+    {
+      "_id": "4",
+      "name": "Customer",
+      "code": 4,
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm"
+    }
+  ],
+  "task": [
+    {
+      "id": "1",
+      "title": "notification fonctionality",
+      "real_effort": 15,
+      "estimated_effort": 8,
+      "body": "implementation de fonctionaliter Notification",
+      "estimated_start": "2021-07-25",
+      "project": "2",
+      "owner": "2",
+      "executor": "4",
+      "status": "1",
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm",
+      "progress_percentage": 0,
+      "last_informations": ""
+    },
+    {
+      "id": "2",
+      "title": "CRUD fonctionality",
+      "real_effort": 10,
+      "estimated_effort": 5,
+      "body": "creer les interface pour Le Crud",
+      "estimated_start": "2021-07-25",
+      "project": "1",
+      "owner": "3",
+      "executor": "4",
+      "status": "1",
+      "createdAt": "07 25th 2021, 1:39:39 pm",
+      "updatedAt": "07 25th 2021, 1:39:39 pm",
+      "progress_percentage": 0,
+      "last_informations": ""
+    }
+  ]
+}

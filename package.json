@@ -1,0 +1,46 @@
+{
+  "name": "zo-best",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@hookform/resolvers": "^2.6.1",
+    "antd": "^4.16.9",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.0",
+    "formik": "^2.2.9",
+    "http-status": "^1.5.0",
+    "jquery": "^3.6.0",
+    "mdbreact": "^5.1.0",
+    "next": "11.0.1",
+    "next-redux-wrapper": "^7.0.2",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.7.2",
+    "rc-select": "^12.1.13",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "17.0.2",
+    "react-feather": "^2.0.9",
+    "react-hook-form": "^7.12.1",
+    "react-redux": "^7.2.4",
+    "react-select": "^5.0.0",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "rxjs": "^7.2.0",
+    "sass": "^1.36.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1"
+  }
+}
